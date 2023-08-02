@@ -7,11 +7,10 @@ class Conexion:
     """
     Clase que permite abrir conexion a la BBDD y abrir cursor.
     """
-    # _SERVIDOR = '192.168.195.143'
-    _SERVIDOR = '127.0.0.1'
-    _BBDD = 'DESKTOP-CAN5JQ5'
-    _USUARIO = '.'
-    _PASSWORD = '123456789'
+    _SERVIDOR = "192.168.100.97"
+    _BBDD = 'APP_POO_C1'
+    _USUARIO = 'app_poo_user'
+    _PASSWORD = '12345678'
     _conexion = None
     _cursor = None
 
